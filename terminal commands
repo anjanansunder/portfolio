@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Deploy Anjana Sunder Portfolio"
+git remote add origin https://github.com/anjanansunder/portfolio.git
+git branch -M main
+git push -u origin main
+npm run deploy
