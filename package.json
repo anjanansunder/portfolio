@@ -1,0 +1,13 @@
+{
+  "name": "anjana-sunder-portfolio",
+  "homepage": "https://anjanansunder.github.io/portfolio",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
