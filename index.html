@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anjana N S | Associate Product Manager</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Anjana N S | Associate Product Manager Portfolio</title>
     <style>
         :root {
-            --primary: #1a2a6c; 
-            --secondary: #b21f1f; 
-            --accent: #00d2ff; 
-            --bg: #f4f7f6;
-            --text: #333;
+            --primary: #2d3436;
+            --secondary: #0984e3;
+            --accent: #00cec9;
+            --light: #f5f6fa;
+            --text: #2f3640;
         }
-
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            background: var(--bg);
             color: var(--text);
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
         }
 
         header {
-            background: linear-gradient(135deg, var(--primary), #2a4858);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             padding: 4rem 2rem;
             text-align: center;
@@ -35,72 +35,77 @@
             padding: 2rem;
         }
 
-        .profile-links {
-            margin-top: 1.5rem;
-        }
-
-        .btn {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 0.5rem;
-            font-weight: bold;
-            transition: transform 0.2s;
-        }
-
-        .btn:hover {
-            transform: scale(1.05);
-            background: #00b8e6;
-        }
-
-        .section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: var(--primary);
-            border-bottom: 2px solid var(--accent);
-            padding-bottom: 0.5rem;
-        }
-
-        .cert-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+        .nav-links {
             margin-top: 1rem;
         }
 
-        .cert-item {
-            flex: 1;
-            min-width: 250px;
-            padding: 1rem;
-            background: #f0faff;
-            border-radius: 8px;
-            border-left: 4px solid var(--primary);
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            border: 1px solid white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: white;
+            color: var(--secondary);
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            border-left: 5px solid var(--secondary);
+            padding-left: 15px;
+            color: var(--primary);
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background: var(--light);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #ddd;
         }
 
         .project-card {
+            background: var(--light);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
             border-left: 5px solid var(--accent);
-            background: #f9f9f9;
-            padding: 1rem;
-            margin: 1rem 0;
         }
 
-        .skill-tag {
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--light);
+            margin-top: 4rem;
+        }
+
+        .contact-btn {
+            background: var(--secondary);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
             display: inline-block;
-            background: #e1e8ed;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            margin: 0.2rem;
-            font-size: 0.85rem;
-            font-weight: 500;
+            margin-top: 1rem;
         }
     </style>
 </head>
@@ -108,67 +113,82 @@
 
 <header>
     <h1>Anjana N S</h1>
-    <p>Associate Product Manager | [span_0](start_span)B2B SaaS & Cloud[span_0](end_span)</p>
-    <div class="profile-links">
-        <a href="https://www.linkedin.com/in/anjana-sunder-b6369a66" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="Anjana_NS_PM_CV.pdf" class="btn" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+    <p>Associate Product Manager | B2B SaaS & Cloud Expert</p>
+    <div class="nav-links">
+        <a href="https://www.linkedin.com/in/anjana-sunder-b6369a66?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn</a>
+        <a href="Anjana_NS_PM_CV.pdf" target="_blank">Download CV (PDF)</a>
     </div>
 </header>
 
 <div class="container">
-    
-    <section class="section">
+    <section id="about">
         <h2>Professional Summary</h2>
-        [span_1](start_span)<p>Product enthusiast with 12+ years in B2B SaaS and Cloud[span_1](end_span). [span_2](start_span)Specialized in bridging customer needs, product vision, and engineering delivery through requirements elicitation, backlog ownership, and Figma prototyping[span_2](end_span).</p>
+        <p>
+            Product enthusiast with over 12 years of experience in B2B SaaS and Cloud. I specialize in bridging customer needs with engineering delivery through requirements elicitation, Figma prototyping, and cross-functional alignment. 
+            Currently pursuing an <strong>International Certification in Product Management (ICPM)</strong> at the Institute of Product Leadership.
+        </p>
     </section>
 
-    <section class="section">
-        <h2>Certifications & Expertise</h2>
-        <div class="cert-grid">
-            <div class="cert-item">
-                <i class="fas fa-graduation-cap" style="color: var(--primary);"></i>
-                <strong>Product Management</strong>
-                [span_3](start_span)<p>ICPM - Institute of Product Leadership (In Progress 2026)[span_3](end_span).</p>
-            </div>
-            <div class="cert-item">
-                <i class="fas fa-cloud" style="color: var(--primary);"></i>
-                <strong>Cloud Computing</strong>
-                [span_4](start_span)<p>AWS Cloud Practitioner Fundamentals Certified[span_4](end_span).</p>
-            </div>
-            <div class="cert-item">
-                <i class="fas fa-briefcase-medical" style="color: var(--primary);"></i>
-                <strong>Healthcare Domain</strong>
-                [span_5](start_span)<p>Expertise in US Healthcare regulations: NCQA, HEDIS, and URAC[span_5](end_span).</p>
-            </div>
+    <section id="skills">
+        <h2>Core PM Skills</h2>
+        <div class="skill-tags">
+            <span class="tag">User Stories & Acceptance Criteria</span>
+            <span class="tag">BRD/PRD Development</span>
+            <span class="tag">Backlog Grooming</span>
+            <span class="tag">MOSCOW Prioritization</span>
+            <span class="tag">UAT & Root Cause Analysis</span>
+            <span class="tag">Figma & Miro</span>
+            <span class="tag">API (Postman/Swagger)</span>
+            <span class="tag">SQL & Power BI</span>
         </div>
     </section>
 
-    <section class="section">
-        <h2>Portfolio Highlights</h2>
+    <section id="projects">
+        <h2>Featured PM Initiatives</h2>
+        
         <div class="project-card">
-            <h3>Print Metrics | PM Initiatives</h3>
-            [span_6](start_span)<p>Identified untapped market for offline marketing attribution (Print, Billboards, TV)[span_6](end_span). [span_7](start_span)Validated with 10 qualitative interviews and built a 3-phase strategic roadmap[span_7](end_span).</p>
+            <h3>Print Metrics – 020 Attribution Platform</h3>
+            <p>Led market research for offline marketing attribution, validating ROI visibility gaps via qualitative interviews in Telecom and Retail. Built a 3-phase strategic roadmap featuring a no-code QR-asset portal and WebXR viewers.</p>
         </div>
+
         <div class="project-card">
-            <h3>Air Saarthi | Unified Airport Utility Platform</h3>
-            [span_8](start_span)<p>Scoped integrated flight intelligence and navigation through frequent-flyer interviews[span_8](end_span). [span_9](start_span)Applied MOSCOW prioritization to consolidate travel data[span_9](end_span).</p>
+            <h3>Air Saarthi – Unified Airport Utility Platform</h3>
+            <p>Scoped an integrated airport companion app through frequent-flyer interviews. Applied MOSCOW prioritization to develop a 3-phase MVP roadmap, consolidating fragmented travel data into a single intelligent experience.</p>
         </div>
     </section>
 
-    <section class="section">
-        <h2>Technical & PM Skills</h2>
-        [span_10](start_span)<div class="skill-tag">Jira & Confluence[span_10](end_span)</div>
-        [span_11](start_span)<div class="skill-tag">Figma & Miro[span_11](end_span)</div>
-        [span_12](start_span)<div class="skill-tag">Postman & Swagger (API)[span_12](end_span)</div>
-        [span_13](start_span)<div class="skill-tag">SQL & Power BI[span_13](end_span)</div>
-        [span_14](start_span)<div class="skill-tag">GenAI (ChatGPT, Claude)[span_14](end_span)</div>
-        [span_15](start_span)<div class="skill-tag">Product Lifecycle Mgmt[span_15](end_span)</div>
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <h3>Verint Systems Inc. | Senior Technical Writer & Product Support Lead</h3>
+        <p><em>Jul 2023 – Present</em></p>
+        <ul>
+            <li>Facilitated stakeholder workshops to define Functional Requirement Documents (FRD).</li>
+            <li>Owned the Jira backlog for module-specific features and prioritized technical debt.</li>
+            <li>Mapped user journeys in Miro AI, identifying 15% efficiency gains in automated-scheduling.</li>
+        </ul>
+
+        <h3>ZeOmega Private Limited | Lead Technical Writer & UX Writer</h3>
+        <p><em>Jun 2014 – Jun 2023</em></p>
+        <ul>
+            <li>Translated US Healthcare regulations into actionable functional requirements for the Jiva Platform.</li>
+            <li>Designed end-to-end Care Management workflows, improving team efficiency by 20%.</li>
+            <li>Partnered with architects to document data contracts and ensure a Single Source of Truth.</li>
+        </ul>
     </section>
 
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <ul>
+            <li><strong>ICPM - Product Management</strong> | Institute of Product Leadership (In Progress 2025-2026)</li>
+            <li><strong>B.E. Information Science</strong> | BNMIT, Bangalore</li>
+            <li><strong>AWS Cloud Practitioner Fundamentals</strong> Certified</li>
+        </ul>
+    </section>
 </div>
 
-<footer style="text-align: center; padding: 2rem; color: #777;">
-    <p>&copy; 2026 Anjana N S | [span_16](start_span)Bangalore, India[span_16](end_span)</p>
+<footer>
+    <p>Contact: anjanansunder@gmail.com | +91 9686230303</p>
+    <a href="mailto:anjanansunder@gmail.com" class="contact-btn">Get In Touch</a>
 </footer>
 
 </body>
