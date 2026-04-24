@@ -3,172 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anjana Sunder | Portfolio</title>
+    <title>Anjana N S | Associate Product Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --primary: #2d3436;
-            --accent: #0984e3;
-            --bg: #f5f6fa;
-            --text: #2d3436;
-            --light-text: #636e72;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --primary: #1a2a6c; 
+            --secondary: #b21f1f; 
+            --accent: #00d2ff; 
+            --bg: #f4f7f6;
+            --text: #333;
         }
 
         body {
-            background-color: var(--bg);
-            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
         }
 
         header {
-            background: #fff;
+            background: linear-gradient(135deg, var(--primary), #2a4858);
+            color: white;
             padding: 4rem 2rem;
             text-align: center;
-            border-bottom: 3px solid var(--accent);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            color: var(--light-text);
-            font-size: 1.2rem;
         }
 
         .container {
             max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        section {
-            margin-bottom: 3rem;
-            background: #fff;
+            margin: auto;
             padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
 
-        h2 {
-            border-left: 5px solid var(--accent);
-            padding-left: 15px;
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-        }
-
-        .cv-placeholder {
-            border: 2px dashed #ccc;
-            padding: 2rem;
-            text-align: center;
-            background: #fafafa;
-            border-radius: 5px;
-            margin-top: 1rem;
+        .profile-links {
+            margin-top: 1.5rem;
         }
 
         .btn {
             display: inline-block;
             background: var(--accent);
-            color: #fff;
+            color: white;
             padding: 0.8rem 1.5rem;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: 1rem;
+            margin: 0.5rem;
             font-weight: bold;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .card {
-            border: 1px solid #eee;
-            padding: 1.5rem;
-            border-radius: 8px;
             transition: transform 0.2s;
         }
 
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
+        .btn:hover {
+            transform: scale(1.05);
+            background: #00b8e6;
         }
 
-        .card h3 {
-            margin-bottom: 0.5rem;
-            color: var(--accent);
-        }
-
-        footer {
-            text-align: center;
+        .section {
+            background: white;
             padding: 2rem;
-            color: var(--light-text);
-            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
+
+        .cert-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .cert-item {
+            flex: 1;
+            min-width: 250px;
+            padding: 1rem;
+            background: #f0faff;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .project-card {
+            border-left: 5px solid var(--accent);
+            background: #f9f9f9;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #e1e8ed;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0.2rem;
+            font-size: 0.85rem;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Anjana Sunder</h1>
-        <p>Product Manager & Software Engineer</p>
-    </header>
-
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Experienced professional with a unique blend of product management and software engineering expertise. Passionate about building scalable solutions and leveraging AI to solve real-world problems. Proven track record in developing privacy-first platforms and conversational interfaces.</p>
-        </section>
-
-        <section id="initiatives">
-            <h2>Key Initiatives</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Print Metrics</h3>
-                    <p>A privacy-first platform designed to measure offline advertising engagement effectively. Focused on bridging the gap between physical marketing and digital analytics.</p>
-                </div>
-                <div class="card">
-                    <h3>AIR-SAARTHI</h3>
-                    <p>An AI-powered conversational travel assistant that enhances the user journey through intuitive interactions and smart recommendations.</p>
-                </div>
-                <div class="card">
-                    <h3>Product Leadership</h3>
-                    <p>Strategic development and product growth initiatives undertaken at the Institute of Product Leadership.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="cv">
-            <h2>Curriculum Vitae</h2>
-            <p>View my full professional history and technical skills.</p>
-            <div class="cv-placeholder">
-                <p><strong>[Your CV Document Link/Embed Here]</strong></p>
-                <p>Replace this section with a link to your hosted PDF or an embedded Google Drive viewer.</p>
-                <a href="#" class="btn">Download Full CV</a>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Interested in collaborating or just want to say hi? Feel free to reach out via LinkedIn or GitHub.</p>
-            <div style="margin-top: 1rem;">
-                <a href="https://github.com/anjanans" style="margin-right: 15px; color: var(--accent);">GitHub</a>
-                <a href="https://linkedin.com/in/anjanans" style="color: var(--accent);">LinkedIn</a>
-            </div>
-        </section>
+<header>
+    <h1>Anjana N S</h1>
+    <p>Associate Product Manager | [span_0](start_span)B2B SaaS & Cloud[span_0](end_span)</p>
+    <div class="profile-links">
+        <a href="https://www.linkedin.com/in/anjana-sunder-b6369a66" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="Anjana_NS_PM_CV.pdf" class="btn" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
     </div>
+</header>
 
-    <footer>
-        <p>&copy; 2026 Anjana Sunder. Built for GitHub Pages.</p>
-    </footer>
+<div class="container">
+    
+    <section class="section">
+        <h2>Professional Summary</h2>
+        [span_1](start_span)<p>Product enthusiast with 12+ years in B2B SaaS and Cloud[span_1](end_span). [span_2](start_span)Specialized in bridging customer needs, product vision, and engineering delivery through requirements elicitation, backlog ownership, and Figma prototyping[span_2](end_span).</p>
+    </section>
+
+    <section class="section">
+        <h2>Certifications & Expertise</h2>
+        <div class="cert-grid">
+            <div class="cert-item">
+                <i class="fas fa-graduation-cap" style="color: var(--primary);"></i>
+                <strong>Product Management</strong>
+                [span_3](start_span)<p>ICPM - Institute of Product Leadership (In Progress 2026)[span_3](end_span).</p>
+            </div>
+            <div class="cert-item">
+                <i class="fas fa-cloud" style="color: var(--primary);"></i>
+                <strong>Cloud Computing</strong>
+                [span_4](start_span)<p>AWS Cloud Practitioner Fundamentals Certified[span_4](end_span).</p>
+            </div>
+            <div class="cert-item">
+                <i class="fas fa-briefcase-medical" style="color: var(--primary);"></i>
+                <strong>Healthcare Domain</strong>
+                [span_5](start_span)<p>Expertise in US Healthcare regulations: NCQA, HEDIS, and URAC[span_5](end_span).</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Portfolio Highlights</h2>
+        <div class="project-card">
+            <h3>Print Metrics | PM Initiatives</h3>
+            [span_6](start_span)<p>Identified untapped market for offline marketing attribution (Print, Billboards, TV)[span_6](end_span). [span_7](start_span)Validated with 10 qualitative interviews and built a 3-phase strategic roadmap[span_7](end_span).</p>
+        </div>
+        <div class="project-card">
+            <h3>Air Saarthi | Unified Airport Utility Platform</h3>
+            [span_8](start_span)<p>Scoped integrated flight intelligence and navigation through frequent-flyer interviews[span_8](end_span). [span_9](start_span)Applied MOSCOW prioritization to consolidate travel data[span_9](end_span).</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Technical & PM Skills</h2>
+        [span_10](start_span)<div class="skill-tag">Jira & Confluence[span_10](end_span)</div>
+        [span_11](start_span)<div class="skill-tag">Figma & Miro[span_11](end_span)</div>
+        [span_12](start_span)<div class="skill-tag">Postman & Swagger (API)[span_12](end_span)</div>
+        [span_13](start_span)<div class="skill-tag">SQL & Power BI[span_13](end_span)</div>
+        [span_14](start_span)<div class="skill-tag">GenAI (ChatGPT, Claude)[span_14](end_span)</div>
+        [span_15](start_span)<div class="skill-tag">Product Lifecycle Mgmt[span_15](end_span)</div>
+    </section>
+
+</div>
+
+<footer style="text-align: center; padding: 2rem; color: #777;">
+    <p>&copy; 2026 Anjana N S | [span_16](start_span)Bangalore, India[span_16](end_span)</p>
+</footer>
 
 </body>
 </html>
